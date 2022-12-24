@@ -11,6 +11,8 @@
 		08006364295749610082B140 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08006363295749610082B140 /* ContentView.swift */; };
 		08006366295749640082B140 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08006365295749640082B140 /* Assets.xcassets */; };
 		08006369295749640082B140 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08006368295749640082B140 /* Preview Assets.xcassets */; };
+		0800637029574A0E0082B140 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0800636F29574A0E0082B140 /* Person.swift */; };
+		0800637229574B090082B140 /* DataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0800637129574B090082B140 /* DataStorage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		08006363295749610082B140 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		08006365295749640082B140 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08006368295749640082B140 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0800636F29574A0E0082B140 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		0800637129574B090082B140 /* DataStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStorage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				08006361295749610082B140 /* ContactListSUIApp.swift */,
+				0800636F29574A0E0082B140 /* Person.swift */,
+				0800637129574B090082B140 /* DataStorage.swift */,
 				08006363295749610082B140 /* ContentView.swift */,
 				08006365295749640082B140 /* Assets.xcassets */,
 				08006367295749640082B140 /* Preview Content */,
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0800637029574A0E0082B140 /* Person.swift in Sources */,
 				08006364295749610082B140 /* ContentView.swift in Sources */,
 				08006362295749610082B140 /* ContactListSUIApp.swift in Sources */,
+				0800637229574B090082B140 /* DataStorage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
