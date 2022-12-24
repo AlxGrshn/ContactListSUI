@@ -16,7 +16,7 @@
 		0800637629574CEB0082B140 /* ExtendedContactRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0800637529574CEB0082B140 /* ExtendedContactRowView.swift */; };
 		0800637929574D8C0082B140 /* ContactsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0800637829574D8C0082B140 /* ContactsListView.swift */; };
 		0800637B29574FD80082B140 /* PersonsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0800637A29574FD80082B140 /* PersonsListView.swift */; };
-		0800637E2957556B0082B140 /* PersonsInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0800637D2957556B0082B140 /* PersonsInfoView.swift */; };
+		08006380295758AE0082B140 /* PersonsInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0800637F295758AE0082B140 /* PersonsInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +30,7 @@
 		0800637529574CEB0082B140 /* ExtendedContactRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtendedContactRowView.swift; sourceTree = "<group>"; };
 		0800637829574D8C0082B140 /* ContactsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsListView.swift; sourceTree = "<group>"; };
 		0800637A29574FD80082B140 /* PersonsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsListView.swift; sourceTree = "<group>"; };
-		0800637D2957556B0082B140 /* PersonsInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsInfoView.swift; sourceTree = "<group>"; };
+		0800637F295758AE0082B140 /* PersonsInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,8 +111,8 @@
 			children = (
 				0800637829574D8C0082B140 /* ContactsListView.swift */,
 				0800637A29574FD80082B140 /* PersonsListView.swift */,
+				0800637F295758AE0082B140 /* PersonsInfoView.swift */,
 				08006363295749610082B140 /* ContentView.swift */,
-				0800637D2957556B0082B140 /* PersonsInfoView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -188,7 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0800637929574D8C0082B140 /* ContactsListView.swift in Sources */,
-				0800637E2957556B0082B140 /* PersonsInfoView.swift in Sources */,
+				08006380295758AE0082B140 /* PersonsInfoView.swift in Sources */,
 				0800637029574A0E0082B140 /* Person.swift in Sources */,
 				08006364295749610082B140 /* ContentView.swift in Sources */,
 				0800637B29574FD80082B140 /* PersonsListView.swift in Sources */,
